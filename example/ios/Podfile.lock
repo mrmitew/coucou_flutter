@@ -1,0 +1,30 @@
+PODS:
+  - Coucou (0.0.6)
+  - coucou_flutter (0.0.1):
+    - Coucou (~> 0.0.6)
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - Coucou (~> 0.0.5)
+  - coucou_flutter (from `.symlinks/plugins/coucou_flutter/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Coucou
+
+EXTERNAL SOURCES:
+  coucou_flutter:
+    :path: ".symlinks/plugins/coucou_flutter/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  Coucou: f17645a3126facb0110e28033f8abafb4a37b76e
+  coucou_flutter: 02e24e0138c59097fc946b32ae2aad88b68b8f50
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+
+PODFILE CHECKSUM: a7d0cc94da148ecc2515fe3c2f19e0dce2b294cf
+
+COCOAPODS: 1.6.0.beta.2

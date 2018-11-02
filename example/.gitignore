@@ -1,0 +1,13 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
+
+android/.idea/*
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/*
+ios/Runner.xcworkspace/xcshareddata/*
