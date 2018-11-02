@@ -1,6 +1,6 @@
 name: coucou_flutter
 description: Coucou is a network service discovery and broadcast library for Flutter that supports both Android and iOS.
-version: 0.0.2
+version: 0.0.3
 author: Stefan Mitev <mr.mitew@gmail.com>
 homepage: https://github.com/mrmitew/coucou_flutter/
 publish_to: https://pub.dartlang.org

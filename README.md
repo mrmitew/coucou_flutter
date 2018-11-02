@@ -57,6 +57,14 @@ broadcast.dispose();
 * Min sdk for Android is API level 16.
 * Min iOS version is 8.0.
 
+## Installation
+
+1. Open the `pubspec.yaml` file located inside your app folder
+2. Add `coucou_flutter: <ENTER_VERSION_NUMBER_HERE>` under dependencies. For instance: `coucou_flutter: ^0.0.2`.
+3. Open the terminal and execute `flutter packages get` (or use your IDE to trigger the command)
+4. Add a corresponding `import` statement in your Dart code. For instance: `import 'package:coucou_flutter/coucou.dart';`
+5. Stop the app and install fresh. This is a must since platform-specific code cannot be hot reloaded.
+
 ## TODO
 - Support for network service broadcasts
 - Acknowledge the domain parameter on the Android side for service discovery. This has to be implemented in the [coucou_android](https://github.com/mrmitew/coucou_android) project first.
