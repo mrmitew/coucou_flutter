@@ -1,6 +1,6 @@
 # Coucou (Flutter)
 
-Coucou is a network service discovery and broadcast library for Flutter that supports both Android and iOS.
+git remote add origin https://github.com/mrmitew/coucou_flutter.git
 The platform-specific implementations are utilizing [coucou_android](https://github.com/mrmitew/coucou_android) (v0.1.1) and [coucou_ios](https://github.com/mrmitew/coucou_ios) (v0.0.6).
 
 *Note*: This plugin is still in very early stage of development and there are many things that are yet to be done. For more information, take a look at the todo list down below.

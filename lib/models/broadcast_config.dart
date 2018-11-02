@@ -7,9 +7,9 @@ class BroadcastConfig {
   BroadcastConfig({this.type, this.name, this.port, this.txtRecords});
 
   toMap() => {
-    "type": type,
-    "name": name,
-    "port": port,
-    "txtRecords": txtRecords,
-  };
+        "type": type,
+        "name": name,
+        "port": port,
+        "txtRecords": txtRecords,
+      };
 }

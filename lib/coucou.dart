@@ -9,7 +9,6 @@ const PLUGIN_PACKAGE = "com.github.mrmitew.coucou.flutter";
 ///
 /// Only used for debugging and it will be removed soon.
 ///
-@deprecated
 abstract class PlatformRepository {
   Future<String> get platformInformation;
 }
@@ -52,7 +51,6 @@ class Coucou implements PlatformRepository {
   /// Note that  un future, stopping of discovery will be triggered automatically
   /// on closing of the stream.
   ///
-  @override
   Stream<dynamic> startDiscovery(String type, {String domain = "local."}) =>
       _discoveryEventChannel
           .receiveBroadcastStream({"type": type, "domain": domain});
@@ -62,7 +60,6 @@ class Coucou implements PlatformRepository {
   /// If no type is specified, then it will stop any currently running service
   /// discoveries.
   ///
-  @override
   Future<dynamic> stopDiscovery({String type}) async =>
       await _methodChannel.invokeMethod(_STOP_DISCOVERY, type);
 
@@ -72,7 +69,6 @@ class Coucou implements PlatformRepository {
   /// In order to stop a broadcast, execute the [dispose] method on the [Disposable],
   /// or execute [stopBroadcast], instead.
   ///
-  @override
   Future<Disposable> startBroadcast(BroadcastConfig config) async {
     await _methodChannel.invokeMethod(_START_BROADCAST, config.toMap());
 
@@ -89,8 +85,6 @@ class Coucou implements PlatformRepository {
   /// If no config was specified, then it will cancel any existing service
   /// broadcasts.
   ///
-  @override
   Future<dynamic> stopBroadcast({BroadcastConfig config}) async =>
       await _methodChannel.invokeMethod(_STOP_BROADCAST, config?.toMap());
 }
-
