@@ -1,7 +1,7 @@
 # Coucou (Flutter)
 
 Coucou is a network service discovery and broadcast library for Flutter that supports both Android and iOS.
-The platform-specific implementations are utilizing [coucou_android](https://github.com/mrmitew/coucou_android) and [coucou_ios](https://github.com/mrmitew/coucou_ios).
+The platform-specific implementations are utilizing [coucou_android](https://github.com/mrmitew/coucou_android) (v0.1.1) and [coucou_ios](https://github.com/mrmitew/coucou_ios) (v0.0.6).
 
 *Note*: This plugin is still in very early stage of development and there are many things that are yet to be done. For more information, take a look at the todo list down below.
 
@@ -51,6 +51,10 @@ broadcast.dispose();
 
 *Note*: Broadcast requests currently are not supported, but the API is there.
 
+## Requirements
+* Min sdk for Android is API level 16.
+* Min iOS version is 8.0.
+
 ## TODO
 - Support for network service broadcasts
 - Acknowledge the domain parameter on the Android side for service discovery. This has to be implemented in the [coucou_android](https://github.com/mrmitew/coucou_android) project first.
@@ -60,10 +64,6 @@ broadcast.dispose();
 - Better sample app that demonstrates the usage of this library
 - Improve documentation
 - Write tests
-
-## Requirements
-* Min sdk for Android is API level 16.
-* Min iOS version is 8.0.
 
 ## Communication
 * Author: Stefan Mitev

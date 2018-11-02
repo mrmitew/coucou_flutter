@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:coucou_flutter/models/BroadcastConfig.dart';
-import 'package:coucou_flutter/models/Disposable.dart';
+import 'package:coucou_flutter/models/broadcast_config.dart';
+import 'package:coucou_flutter/models/disposable.dart';
 import 'package:flutter/services.dart';
 
 const PLUGIN_PACKAGE = "com.github.mrmitew.coucou.flutter";
